@@ -1,5 +1,4 @@
-import { Wallet } from "lucide-react";
-import { Button } from "@/components/ui/button";
+import { ConnectButton } from '@rainbow-me/rainbowkit';
 import logo from "@/assets/silentstake-logo.png";
 
 const Header = () => {
@@ -14,10 +13,7 @@ const Header = () => {
             </h1>
           </div>
           
-          <Button className="glow-primary hover:glow-accent transition-all">
-            <Wallet className="mr-2 h-4 w-4" />
-            Connect Rainbow Wallet
-          </Button>
+          <ConnectButton />
         </div>
         
         <div className="mt-4 text-center">
